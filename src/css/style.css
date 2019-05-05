@@ -1,0 +1,69 @@
+
+h1
+{
+	position: relative;
+	top: 180px;
+	color: lightgray;
+	text-align: center;
+}
+
+body{
+	background-image: url(bg3.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	color: lightgray;
+}
+
+/*log in*/
+#name{
+	margin: auto;
+	width: 280px;
+	position: relative;
+	top: 200px;
+}
+
+
+#submit{
+	position: relative;
+	margin: auto;
+	height: 65px;
+	width: 65px;
+	border-radius: 100%;
+	font-size: 18px;
+	color: black;
+}
+	
+
+/*inf*/
+table{
+	margin: auto;
+	width: 400px;
+	font-weight: bold;
+	font-size: 120%;
+	border: solid grey;
+	border-radius: 20px;
+	position: relative;
+	top: 200px;
+}
+
+/*error*/
+#err{
+	margin: auto;
+	width: 450px;
+	border: solid grey;
+	border-radius: 18px;
+	font-weight: bold;
+	font-size: 110%;
+	position: relative;
+	top: 200px;
+}
+
+button{
+	position: relative;
+	left: 960px;
+	height: 60px;
+	width: 60px;
+	border-radius: 100%;
+	font-size: 18px;
+	top: 220px;
+}

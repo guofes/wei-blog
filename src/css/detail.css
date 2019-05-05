@@ -1,0 +1,189 @@
+
+/*设置主页面格式大小和居中*/
+ .main{
+ 	width: 600px;
+ 	margin: auto;
+    padding:10px;
+    height: 100%;
+ }
+ html,body{
+    background-image: url(bg2.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+ /*设置字体*/
+ .bgfont {
+ 	font-family: font-family:"Times New Roman", Times, serif; /*字体类型的设置，一般设置什么类型？*/
+    font-size: 24px;
+}
+ /*设置横向列表*/
+ ul{
+    list-style-type:none;
+ }
+ /*设置输入框样式*/
+ input[type="text"]{
+ 	width: 200px;
+ 	height: 25px;
+ 	margin-right: 10px;
+ 	margin-bottom: 10px;
+ 	float: left;
+ }
+ /*设置文本域样式*/
+ textarea{
+ 	width: 100%;
+ 	rows:4;
+ 	display: block;
+    margin-bottom:10px;
+    font-size:14px;
+    resize:none; /*把右下角标志去掉*/
+    opacity: 0.5;
+ }
+
+ /*设置按钮样式*/
+ #addBtn{
+    
+    width: 112px;
+    height: 30px;
+ }
+
+
+ #myBlogBtn,#randomBlogBtn, #targetBlogBtn{
+    width: 130px;
+    height: 30px;
+    font-size: 120%;
+ }
+
+ #randomBlogBtn{
+    position: relative;
+    left: 140px;
+    top: -32px;
+ }
+
+ #targetBlogBtn{
+    position: relative;
+    left: 280px;
+    top: -64px;
+ }
+
+ #followBtn{
+    position: relative;
+    left: 120px;
+    top: -65px;
+ }
+
+ #logOutBtn, #backBtn{
+    float: right;
+ }
+
+ button, #private{
+    background-color: #FFFFFF;
+    text-shadow: 0 0 7px #1E90FF;
+    color: #1E90FF;
+    font-weight: bold;
+    font-size: 140%;
+    border-color: #FFFFFF;
+    border-radius: 8px;
+    transform: scale(1);
+    transition: all 0.5s;
+    opacity: 0.7;
+    
+ }
+
+
+ #private{
+    font-size:100%;
+ }
+ 
+ /*设置头条样式*/
+ .banner{
+ 	height: 30px; /*内容的宽和高*/
+ 	width:580px;
+    margin-top:10px;
+ 	padding-top: 20px;
+ 	padding-left: 20px;
+ 	padding-bottom: 0px;
+
+    text-shadow: 0 0 7px #1E90FF;
+    color: #1E90FF;
+    font-size: 120%;
+    font-weight: bold;
+    transform: scale(1);
+    transition: all 0.5s;
+    opacity: 0.7;
+ }
+ .banner{
+ 	height: 30px;
+ 	width:80px;
+ 	margin-bottom: 0px;
+    border-bottom:0px;
+    padding-left:10px;
+    padding-top:5px;
+ }
+ /*设置发表内容格式*/
+ li{
+    transform: scale(1);
+    transition: all 0.5s;
+ }
+ #out_content li:hover{
+    box-shadow: inset 0 0 20px 3px #66FFFF;
+    text-shadow: 0 0 7px #66FFFF;
+    color: #66FFFF;
+    transform: scale(1.2);
+    opacity: 1;
+
+ }
+ .ualign{
+    margin-left:0px;/*头像边缘和上面导航栏对齐*/
+    padding-left:0px;
+ }
+ .content{
+    float: left;
+    margin-left:10px;
+    text-shadow: 0 0 7px #1E90FF;
+    color: #1E90FF;
+    font-weight: bold;
+    transform: scale(1);
+    transition: all 0.5s;
+    opacity: 0.7;
+    font-size: 20px;
+}
+
+.users{
+    margin-left:10px;
+    text-shadow: 0 0 7px #1E90FF;
+    color: #1E90FF;
+    font-weight: bold;
+    transform: scale(1);
+    transition: all 0.5s;
+    opacity: 0.7;
+}
+
+ .words{
+   margin-top:0px; /*输入字体顶端对齐*/
+   margin-bottom:12px;
+ }
+ .time{
+    font-size:14px;
+    color: #1A1A1A;
+ }
+hr{
+    clear:left;/*清除浮动，左侧不允许出现浮动的元素*/
+    width:100%;
+    border-width:1px;
+}
+#user_name
+{
+    text-shadow: 0 0 7px #1E90FF;
+    color: #1E90FF;
+    font-weight: bold;
+    font-size: 200%;
+    transform: scale(1);
+    transition: all 0.5s;
+    opacity: 0.7;
+}
+.del{
+    text-decoration:underline;
+    cursor:pointer;
+    color:rgb(70,144,255);
+}

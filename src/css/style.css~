@@ -1,0 +1,81 @@
+
+h1
+{
+	position: relative;
+	top: 180px;
+	color: lightgray;
+	text-align: center;
+}
+
+body{
+	background-image: url(bg3.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	color: lightgray;
+}
+
+/*log in*/
+form{
+	margin: auto;
+	width: 250px;
+	position: relative;
+	top: 200px;
+}
+
+
+
+#id,#mail,#phone{
+	position: relative;
+	left: 20px;
+}
+
+#reset,#submit{
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	font-size: 18px;
+}
+
+#reset{
+	position: relative;
+	left: 100px;
+}
+
+#submit{
+	position: relative;
+	left: 120px;
+}
+
+/*inf*/
+table{
+	margin: auto;
+	width: 400px;
+	font-weight: bold;
+	font-size: 120%;
+	border: solid grey;
+	border-radius: 20px;
+	position: relative;
+	top: 200px;
+}
+
+/*error*/
+#err{
+	margin: auto;
+	width: 450px;
+	border: solid grey;
+	border-radius: 18px;
+	font-weight: bold;
+	font-size: 110%;
+	position: relative;
+	top: 200px;
+}
+
+button{
+	position: relative;
+	left: 920px;
+	height: 60px;
+	width: 60px;
+	border-radius: 100%;
+	font-size: 18px;
+	top: 200px;
+}

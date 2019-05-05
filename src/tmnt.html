@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>TMNT - Rancid Tomatoes</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<link href="css/detail.css" type="text/css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<button id="logOutBtn">登出</button>
+		<button id="backBtn">返回主页</button>
+		<div class="main">
+			<!--输入框-->
+			<div>
+				<button id="searchP">搜索用户名</button><input type="text" id="searchinput" />
+				<h3 id="user_name">用户名</h3>
+				<button id="followBtn">关注</button>
+			</div>
+				<!--输入发表内容-->
+				<div>
+				    <textarea rows="4" id="user_content"></textarea>
+				    <button id="addBtn">发布</button>
+				    <label id="private"><input id="privateC" type="checkbox" value="" />私密</label> 
+				</div>
+ 
+			<!--发表框-->
+			<div>
+				<div class="banner">
+					<button id="myBlogBtn">我的微博</button>
+					<button id="randomBlogBtn">随便看看</button>
+					<button id="targetBlogBtn">关注的人</button>
+				</div>
+				<ul id="out_content" class="ualign">
+                    
+				</ul>
+			</div>
+		</div>
+
+		<script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	    <script src="js/web3.min.js"></script>
+	    <script src="js/truffle-contract.js"></script>
+	    <script src="js/detail.js"></script>
+	</body>
+</html>
